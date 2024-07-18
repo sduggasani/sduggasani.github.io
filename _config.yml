@@ -1,10 +1,10 @@
-name: Christopher Adams
-title: christopheradams.io
+name: Sammy Duggasani
+title: sduggasani.github.io
 description: >-
-  Photography, AI, Blockchain, Hypermedia
-email: info@christopheradams.io
+  Photography
+email: sduggasani@college.harvard.edu
 default_img: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2022/20220522-1235_Taipei_TaipeiDangdai/20220522-1235_Taipei_TaipeiDangdai_L1000274-0.jpg
-location: Taipei
+location: Atlanta
 newsletter: https://christopheradams.us4.list-manage.com/subscribe?u=acc7f3d8b7e235071d274920b&id=1c61d44635
 timezone: ETC/UTC
 
@@ -14,20 +14,12 @@ baseurl: ""
 source_url: "https://github.com/christopheradams/christopheradams.io/blob/master/"
 
 social:
-  - name: twitter
-    url: https://twitter.com/christopheradam
+  - name: X
+    url: https://x.com/sduggasani
   - name: instagram
-    url: https://www.instagram.com/christopherleeadams
+    url: https://www.instagram.com/sammy_duggasani
   - name: github
-    url: https://github.com/christopheradams
-  - name: mastodon
-    url: https://mastodon.social/@christopheradams
-  - name: nostr
-    url: https://primal.net/p/npub1fnnxzzdzaw4a0j5y25wjukmwlaqfe6heugf78hqxrs2ulpx3tyxqe9vk8n
-  - name: farcaster
-    url: https://warpcast.com/christopheradams
-  - name: objkt
-    url: https://objkt.com/profile/christopheradams/
+    url: https://github.com/sduggasani
   # - name: flickr
   #   url: https://flickr.com/photos/christopheradams
   # - name: hicetnunc
@@ -36,9 +28,9 @@ social:
 # Authors
 # see _data/authors.yml
 author:
-  name: Christopher Adams
-  email: info@christopheradams.io
-  uri: https://christopheradams.io
+  name: Sammy Duggasani
+  email: sduggasani@college.harvard.edu
+  uri: https://sduggasani.github.io
 
 # Collections
 collections:
@@ -51,14 +43,14 @@ defaults:
     values:
       layout: post
       permalink: /posts/:year/:month/:day/:title/
-      author: christopheradams
+      author: sduggasani
   - scope:
       path: ""
       type: topics
     values:
       layout: category
       permalink: /categories/:title/
-      author: christopheradams
+      author: sduggasani
 
 paginate: 12
 paginate_path: "/page/:num/"
